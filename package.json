@@ -9,15 +9,20 @@
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "autoprefixer": "^10.4.13",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
     "postcss": "^8.4.21",
+    "prettier": "^2.8.3",
     "typescript": "^4.9.5"
   },
   "license": "UNLICENSED",
-  "name": "tailwind-ladle",
+  "name": "monster-desingsystem",
   "private": true,
   "scripts": {
+    "build": "ladle build",
+    "check": "npx eslint . && npx prettier . --check",
     "dev": "ladle serve",
-    "build": "ladle build"
+    "lint": "npx eslint . --fix && npx prettier . --write"
   },
   "version": "0.1.0"
 }
