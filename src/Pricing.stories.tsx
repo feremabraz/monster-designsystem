@@ -1,6 +1,6 @@
 import { Story } from '@ladle/react'
 
-export const Pricing = () => {
+export const PricingSection = () => {
   return (
     <section className="py-26 bg-white">
       <div className="container px-4 mx-auto">
