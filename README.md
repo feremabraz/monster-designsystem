@@ -1,4 +1,4 @@
-# Tailwind development with Ladle
+# Design System for Gamekaiju & Appkaiju
 
 Description.
 
