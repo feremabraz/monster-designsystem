@@ -20,9 +20,10 @@
   "private": true,
   "scripts": {
     "build": "ladle build",
-    "check": "npx eslint . && npx prettier . --check",
+    "check": "eslint . && prettier . --check",
     "dev": "ladle serve",
-    "lint": "npx eslint . --fix && npx prettier . --write"
+    "lint": "eslint . --fix && prettier . --write",
+    "serve": "npm run build && ladle preview"
   },
   "version": "0.1.0"
 }
