@@ -1,21 +1,26 @@
-import { Story } from "@ladle/react"
+import { Story } from '@ladle/react'
 
 const data = [
-  { title: "Title 1", paragraph: "Paragraph 1", image: "icon-bar.svg" },
-  { title: "Title 2", paragraph: "Paragraph 2", image: "icon-box.svg" },
-  { title: "Title 3", paragraph: "Paragraph 3", image: "icon-message.svg" },
-  { title: "Title 4", paragraph: "Paragraph 4", image: "icon-people.svg" },
-  { title: "Title 5", paragraph: "Paragraph 5", image: "icon-settings.svg" },
-  { title: "Title 6", paragraph: "Paragraph 6", image: "icon-write.svg" },
-];
+  { title: 'Title 1', paragraph: 'Paragraph 1', image: 'icon-bar.svg' },
+  { title: 'Title 2', paragraph: 'Paragraph 2', image: 'icon-box.svg' },
+  { title: 'Title 3', paragraph: 'Paragraph 3', image: 'icon-message.svg' },
+  { title: 'Title 4', paragraph: 'Paragraph 4', image: 'icon-people.svg' },
+  { title: 'Title 5', paragraph: 'Paragraph 5', image: 'icon-settings.svg' },
+  { title: 'Title 6', paragraph: 'Paragraph 6', image: 'icon-write.svg' },
+]
 
 export const FeatureList = () => (
   <div className="flex flex-wrap -mx-4 -mb-12">
     {data.map(({ title, paragraph, image }, index) => (
-      <FeatureCard key={index} title={title} paragraph={paragraph} image={image} />
+      <FeatureCard
+        key={index}
+        title={title}
+        paragraph={paragraph}
+        image={image}
+      />
     ))}
   </div>
-);
+)
 
 export const FeatureSection: Story<{
   subtitle: string
@@ -37,9 +42,7 @@ export const FeatureSection: Story<{
           <h1 className="text-3xl md:text-4xl font-extrabold font-heading mt-4 mb-6">
             {title}
           </h1>
-          <p className="text-xl font-extrabold leading-8">
-            {paragraph}
-          </p>
+          <p className="text-xl font-extrabold leading-8">{paragraph}</p>
         </div>
         <FeatureList />
       </div>

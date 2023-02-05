@@ -7,6 +7,7 @@ export default {
       enabled: false,
     },
   },
-  defaultStory: "hero--hero",
-  appendToHead: "<link rel='icon' type='image/png' sizes='32x32' href='logo.png' />",
+  defaultStory: 'hero--hero',
+  appendToHead:
+    "<link rel='icon' type='image/png' sizes='32x32' href='logo.png' />",
 }

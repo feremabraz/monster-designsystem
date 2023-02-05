@@ -7,11 +7,7 @@ export const Footer = () => {
             <div className="flex flex-wrap justify-between items-center">
               <div className="w-full lg:w-auto mb-12 lg:mb-0">
                 <a className="inline-block mx-auto" href="index.html">
-                  <img
-                    className="rounded-lg"
-                    src="logo-long.png"
-                    alt=""
-                  />
+                  <img className="rounded-lg" src="logo-long.png" alt="" />
                 </a>
               </div>
               <div className="w-full lg:w-auto mb-12 lg:mb-0">

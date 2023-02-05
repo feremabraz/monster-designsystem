@@ -45,11 +45,7 @@ export const TestimonialSection = () => {
           </div>
         </div>
         <div className="text-center mb-12">
-          <img
-            className="block mb-6 mx-auto"
-            src="avatar-men.png"
-            alt=""
-          />
+          <img className="block mb-6 mx-auto" src="avatar-men.png" alt="" />
           <h4 className="text-xl font-extrabold">Macauley Herring</h4>
           <span className="text-orange-400 font-bold">
             CEO &amp; Founder at Appkaiju
