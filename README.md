@@ -17,3 +17,9 @@ $ npm run build
 ```bash
 # TODO
 ```
+
+## How to deploy?
+
+Configure your Vercel deployment as follows:
+
+![Vercel Deployment](public/vercel-deployment.png)
