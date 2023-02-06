@@ -22,4 +22,4 @@ $ npm run build
 
 Configure your Vercel deployment as follows:
 
-![Vercel Deployment](public/vercel-deployment.png)
+![Vercel Deployment](https://github.com/gamekaiju/monster-desingsystem/blob/master/public/vercel-deployment.png?raw=true)
