@@ -80,6 +80,6 @@ FeatureCard.args = {
   image: 'icon-settings.svg',
 }
 
-FeatureSection.storyName = "Appkaiju / Features";
-FeatureCard.storyName = "Appkaiju / Feature Card";
-FeatureList.storyName = "Appkaiju / Feature List";
+FeatureSection.storyName = 'Appkaiju / Features'
+FeatureCard.storyName = 'Appkaiju / Feature Card'
+FeatureList.storyName = 'Appkaiju / Feature List'

@@ -1,4 +1,4 @@
-import { Story } from "@ladle/react"
+import { Story } from '@ladle/react'
 
 export const ErrorPage: Story<{
   code: string
@@ -50,5 +50,6 @@ ErrorPage.args = {
   code: 'Error 404',
   aclaration: 'Not Found',
   description: 'The page you requested does not exist.',
-  image: 'https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMzIzMzB8MHwxfHNlYXJjaHw1fHxlcnJvcnxlbnwwfHx8fDE2NTg3OTUzODE&ixlib=rb-1.2.1&q=80&w=1920'
+  image:
+    'https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMzIzMzB8MHwxfHNlYXJjaHw1fHxlcnJvcnxlbnwwfHx8fDE2NTg3OTUzODE&ixlib=rb-1.2.1&q=80&w=1920',
 }

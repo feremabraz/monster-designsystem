@@ -48,4 +48,4 @@ export const Features = () => {
   )
 }
 
-Features.storyName = "Gamekaiju / Features";
+Features.storyName = 'Gamekaiju / Features'
