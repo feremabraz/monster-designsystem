@@ -129,3 +129,5 @@ export const Hero = () => {
     </>
   )
 }
+
+Hero.storyName = 'Appkaiju / Hero'
