@@ -23,7 +23,6 @@
     "type": "git",
     "url": "https://github.com/gamekaiju/monster-desingsystem.git"
   },
-  "private": true,
   "scripts": {
     "build": "ladle build",
     "check": "eslint . && prettier . --check",
