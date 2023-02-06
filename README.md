@@ -20,6 +20,4 @@ $ npm run build
 
 ## How to deploy?
 
-Configure your Vercel deployment as follows:
-
-![Vercel Deployment](https://github.com/gamekaiju/monster-desingsystem/blob/master/public/vercel-deployment.png?raw=true)
+Configure your Vercel deployment to use Vite and the same scripts that the package uses instead of the default ones.
