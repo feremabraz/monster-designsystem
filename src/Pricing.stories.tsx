@@ -1,19 +1,21 @@
 import { Story } from '@ladle/react'
 
-export const PricingSection = () => {
+export const PricingSection: Story<{
+  subtitle: string
+  title: string
+  description: string
+}> = ({ subtitle, title, description }) => {
   return (
     <section className="py-26 bg-white">
       <div className="container px-4 mx-auto">
         <div className="text-center mb-16">
           <span className="text-lg font-extrabold text-indigo-500">
-            Support free &amp; open-source
+            {subtitle}
           </span>
           <h1 className="text-3xl md:text-4xl font-extrabold font-heading mt-4 mb-6">
-            Flexible pricing plan for your startup
+            {title}
           </h1>
-          <p className="text-xl font-extrabold leading-8">
-            Pricing that scales with your business immediately.
-          </p>
+          <p className="text-xl font-extrabold leading-8">{description}</p>
         </div>
         <div className="flex flex-wrap -mx-4">
           <div className="w-full lg:w-1/3 px-4 mb-12 lg:mb-0">
@@ -53,6 +55,12 @@ export const PricingSection = () => {
       </div>
     </section>
   )
+}
+
+PricingSection.args = {
+  subtitle: 'Free & Open-Source',
+  title: 'Support the project with an small donation',
+  description: 'Protected by Stripe & Github Payments.',
 }
 
 export const PricingTier: Story<{
