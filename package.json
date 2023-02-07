@@ -20,7 +20,8 @@
   },
   "description": "Design System for both Appkaiju & Gamekaiju.",
   "files": [
-    "build/**/*", "post-install.mjs"
+    "build/**/*",
+    "post-install.mjs"
   ],
   "license": "UNLICENSED",
   "name": "@gamekaiju/monster-designsystem",
@@ -36,5 +37,5 @@
     "postbuild": "npx zx post-build.mjs",
     "serve": "npm run build && ladle preview"
   },
-  "version": "0.2.2"
+  "version": "0.2.3"
 }
