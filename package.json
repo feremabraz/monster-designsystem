@@ -21,7 +21,7 @@
   "description": "Design System for both Appkaiju & Gamekaiju.",
   "files": [
     "build/**/*",
-    "post-install.mjs"
+    "post-build.mjs"
   ],
   "license": "UNLICENSED",
   "name": "@gamekaiju/monster-designsystem",
