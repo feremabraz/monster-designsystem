@@ -20,7 +20,7 @@
   },
   "description": "Design System for both Appkaiju & Gamekaiju.",
   "files": [
-    "build/**/*"
+    "build/**/*", "post-install.mjs"
   ],
   "license": "UNLICENSED",
   "name": "@gamekaiju/monster-designsystem",
@@ -33,7 +33,7 @@
     "check": "eslint . && prettier . --check",
     "dev": "ladle serve",
     "lint": "eslint . --fix && prettier . --write",
-    "postinstall": "npx zx post-install.mjs",
+    "postbuild": "npx zx post-build.mjs",
     "serve": "npm run build && ladle preview"
   },
   "version": "0.2.2"

@@ -17,5 +17,5 @@
     "jsx": "react-jsx"
   },
   "include": ["src"],
-  "exclude": ["post-install.mjs"]
+  "exclude": ["post-build.mjs"]
 }
