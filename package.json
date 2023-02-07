@@ -23,10 +23,10 @@
     "build/**/*"
   ],
   "license": "UNLICENSED",
-  "name": "@gamekaiju/monster-desingsystem",
+  "name": "@gamekaiju/monster-designsystem",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gamekaiju/monster-desingsystem.git"
+    "url": "https://github.com/gamekaiju/monster-designsystem.git"
   },
   "scripts": {
     "build": "ladle build",
