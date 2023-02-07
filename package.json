@@ -1,4 +1,5 @@
 {
+  "author": "Fernando Emmanuel Braz",
   "dependencies": {
     "@ladle/react": "^2.5.2",
     "react": "^18.2.0",
@@ -17,6 +18,10 @@
     "typescript": "^4.9.5",
     "zx": "^7.1.1"
   },
+  "description": "Design System for both Appkaiju & Gamekaiju.",
+  "files": [
+    "build/**/*"
+  ],
   "license": "UNLICENSED",
   "name": "@gamekaiju/monster-desingsystem",
   "repository": {
