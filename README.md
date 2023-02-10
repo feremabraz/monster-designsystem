@@ -23,13 +23,13 @@ git push --all origin
 
 ## How to consume?
 
-Project is configured to be private, so source code will not be public. Nonetheless, you can consume it in another project as follows:
+If the project is configured to be private, source code will not be public. Nonetheless, you can consume it in another project as follows:
 
 ```bash
 npm install @gamekaiju/monster-designsystem
 ```
 
-For it to work you will need a Personal Access Token (classic) with at least read:packages permissions.
+In that case, for it to work you will need a Personal Access Token (classic) with at least read:packages permissions.
 
 ```bash
 //npm.pkg.github.com/:_authToken=TOKEN
