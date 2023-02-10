@@ -37,5 +37,5 @@
     "postbuild": "npx zx post-build.mjs",
     "serve": "npm run build && ladle preview"
   },
-  "version": "0.2.4"
+  "version": "0.3.0"
 }
