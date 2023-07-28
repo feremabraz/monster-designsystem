@@ -40,4 +40,4 @@ In that case, for it to work you will need a Personal Access Token (classic) wit
 
 Configure your Vercel deployment to use Vite and the same scripts that the package uses instead of the default ones, i.e. the following:
 
-![Vercel Deployment](https://monster-designsystem.vercel.app/vercel-deployment.png)
+![Vercel Deployment](public/vercel-deployment.png)
