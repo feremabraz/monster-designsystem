@@ -2,14 +2,19 @@
 
 Using Tailwind and Ladle.
 
+![Screenshot](./README.png)
+
 ## How to develop?
 
 ```bash
+# using pnpm is adviced
+pnpm install
+
 # start the development mode
-$ npm run dev
+pnpm dev
 
 # if you want to check how the static site will look like
-$ npm run serve
+pnpm serve
 ```
 
 ## How to publish?
@@ -26,18 +31,19 @@ git push --all origin
 If the project is configured to be private, source code will not be public. Nonetheless, you can consume it in another project as follows:
 
 ```bash
-npm install @gamekaiju/monster-designsystem
+npm install @feremabraz/monster-designsystem
+pnpm add @feremabraz/monster-designsystem
 ```
 
-In that case, for it to work you will need a Personal Access Token (classic) with at least read:packages permissions.
+In that case, for it to work while consuming it, you will need a Personal Access Token (classic) with at least read:packages permissions.
 
 ```bash
 //npm.pkg.github.com/:_authToken=TOKEN
-@ORGANIZATION:registry=https://npm.pkg.github.com
+@YOUR_ORGANIZATION:registry=https://npm.pkg.github.com
 ```
 
 ## How to deploy a static site?
 
 Configure your Vercel deployment to use Vite and the same scripts that the package uses instead of the default ones, i.e. the following:
 
-![Vercel Deployment](public/vercel-deployment.png)
+![Vercel Deployment](./vercel-deployment.png)

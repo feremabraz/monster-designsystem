@@ -97,7 +97,7 @@ export const ProjectSection: Story<{
             <div className="flex flex-wrap lg:justify-end">
               <a
                 className="inline-block w-full md:w-auto py-4 px-6 text-center leading-6 text-lg text-indigo-900 hover:text-white font-extrabold bg-white hover:bg-indigo-800 border-3 border-indigo-900 shadow rounded transition duration-200"
-                href="https://github.com/gamekaiju/platform/projects"
+                href="#"
               >
                 Get the Sample
               </a>
